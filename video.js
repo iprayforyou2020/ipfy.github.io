@@ -16,7 +16,8 @@ function onYouTubeIframeAPIReady() {
           fs: 0,              // Hide the full screen button
           autohide: 0,         // Hide video controls when playing
           rel: 0,
-          enablejsapi: 1
+          enablejsapi: 1,
+          origin: 'https://iprayforyou.org'
       },
       events: {
         onReady: function(e) {

@@ -22,7 +22,7 @@ function onYouTubeIframeAPIReady() {
       events: {
         onReady: function(e) {
             e.target.mute();
-            e.target.setPlaybackQuality('hd1080');
+            e.target.setPlaybackQuality('hd720');
         },
         onStateChange: function(e) {
           if(e && e.data === 1){
